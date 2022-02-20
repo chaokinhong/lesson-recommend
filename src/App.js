@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+import { id } from 'ethers/lib/utils';
+import React, { useState, useEffect } from 'react';
 import './App.css';
+import Navbar from './component/navbar';
+import Question from './component/question';
 
-function App() {
+const App=(props) => {
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const navclick = (idx) =>{
+      setCurrentPage(idx)
+      
+  }
+
+  console.log(currentPage)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='layout'>
+    <h2>Recommend System</h2>    
+    <div className='nav_bar_area'>
+      <Navbar navclick={navclick}/>
+     
     </div>
+    <div className='main_page_area'>
+        { currentPage == 1 && <Question/>}
+    </div>
+  
+  </div>
   );
 }
 
 export default App;
+
+
