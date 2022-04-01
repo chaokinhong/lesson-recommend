@@ -11,3 +11,200 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.layout{
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.menu{
+  min-height: 100vh;
+  color: rgb(230, 230, 230);
+}
+
+.nav_bar_area{
+  display: block;
+  float: left;
+  width: 20%;
+}
+
+.main_page_area{
+  display: block;
+  float: left;
+  width: 70%;
+}
+
+.question_area{
+  padding: 10px;
+  margin: 10px;
+}
+
+.question{
+  padding: 10px;
+  margin: 10px;
+}
+
+.suggest_list{
+  display: block;
+}
+
+.suggest_area{
+  padding: 10px;
+  margin: 10px;
+}
+
+
+
+.area{
+  margin: 0 auto;
+}
+
+.img{
+ margin-left: 100%;
+}
+.login{
+  margin-top: 5%;
+
+  
+}
+
+.form{
+  margin-top: 10%;
+}
+
+.log_container{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.text{
+  display: block;
+  float: left;
+  width: 80%;
+}
+
+.mimg{
+  display: block;
+  float: left;
+  width: 50px;
+  height: 50px;
+  width: 5%;
+  margin: 10px;
+}
+.recomm{
+  display: block;
+  float: left;
+  width: 30%;
+  margin: 20px,10px,5px,0px;
+  padding-top: 20px;
+  
+
+  
+}
+.profile{
+  display: block;
+  float: right;
+  width: 20%;
+  padding-top: 20px;
+  padding-right: 5px;
+ 
+ 
+
+}
+
+.header{
+  position: relative;
+  width: 100%;
+
+}
+
+.username{
+  display: block;
+  float: left;
+  margin: 10px 10px;
+}
+
+.pic{
+  float: left;
+  margin: 10px 1px;
+}
+
+.logout{
+  float: left;
+  margin: 5px 1px;
+}
+
+.welcome{
+  
+}
+
+.welcome{
+  width: 100%;
+}
+
+.logo{
+  float: left;
+  margin: 20px;
+}
+
+.text_area{
+  float: left;
+  margin: 40px;
+}
+
+.wel_login{
+  margin: 10px;
+}
+
+.wel_reg{
+  margin: 10px;
+}
+
+.log_header{
+  margin: 0 auto;
+}
+
+.question{
+  padding-left: 35px;
+}
+
+.popover{
+  margin: 10px;
+  float: left;
+}
+
+.mark{
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.rating_select{
+  float: left;
+  width: 20%;
+}
+
+.rating_lab{
+  float: left;
+  width: 20%;
+}
+
+.rating_area{
+  float: left;
+  width: 20%;
+  margin-left: 6px;
+}
+
+.rr_title{
+  margin: 10px;
+}
+
+.rr_switch{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.areaa{
+  margin-left: 5px;
+}

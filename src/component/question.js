@@ -2,7 +2,7 @@ import React,{FC,ReactElement, useState} from "react";
 import { Form, Input, Button, Radio ,Cascader,List} from 'antd';
 import { InfoCircleOutlined } from '@ant-design/icons';
 import axios  from "axios";
-import '../App.css'
+import '../index.css'
 
 
 
@@ -346,9 +346,10 @@ const Question = (props)=> {
 
       
     return(
-    <div>
+    <div className="question">
+      <h2>請選擇您喜歡或擅長的課程，我會為您推薦6個適合您的課程</h2>
       <div className="question_area">
-        <Cascader className="question" options={options} onChange={questionClick} placeholder="Please select" />
+        <Cascader className="question" options={options} onChange={questionClick} placeholder="請選擇" />
       </div>
       <div className="suggest_aree">
         <List className="suggest_list"
